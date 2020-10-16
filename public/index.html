@@ -8,10 +8,16 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    BASE_URL:<%= BASE_URL %>
+    <br/>
+    <pre style="height: 100px; overflow: auto;">
+        htmlWebpackPlugin:
+        <%= JSON.stringify(htmlWebpackPlugin,null,"\t") %>
+    </pre>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="index_html_app"></div>
+    <!-- 生成的文件将被自动注入，由 src/main.js 进行挂载 -->
   </body>
 </html>

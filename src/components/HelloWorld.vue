@@ -2,13 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
+      有关如何配置/自定义此项目的指南和方法，请看
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
+        >Vue.js 开发的标准工具</a
       >.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h3>已安装的CLI插件</h3>
     <ul>
       <li>
         <a

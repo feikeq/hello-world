@@ -1,15 +1,16 @@
 <template>
-  <div id="app">
+  <div id="vueapp">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/About">About</router-link> |
+      <router-link to="/model/cust/tmp">更深的子页(快速切换不闪)</router-link>
     </div>
     <router-view />
   </div>
 </template>
 
 <style>
-#app {
+#vueapp {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
